@@ -1,0 +1,6 @@
+.LOG
+24/9/2018
+Created new module to test date entry. added to NACT and ACT modules. Removed hormone therapy from ACT module.
+
+08:24 03-10-2018
+Modified check_date to accept NA

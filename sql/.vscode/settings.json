@@ -1,0 +1,7 @@
+{
+    "python.pythonPath": "/home/docdk/miniconda3/envs/pccm_db/bin/python",
+    "python.linting.pylintEnabled": true,
+    "python.linting.mypyEnabled": false,
+    "python.linting.prospectorEnabled": false,
+    "python.linting.enabled": true
+}

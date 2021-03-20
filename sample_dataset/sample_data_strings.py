@@ -1,0 +1,52 @@
+class Radiology:
+    node_description = ['nodes_not_described', 'No abnormal axillary nodes seen',
+                       'A left axillary node with cortical thickening of 3.8 mm is seen ; This is suspicious for metastsis',
+                       'Left axillary node does not show cortical thickening; Fatty hilum and oval shape is maintained',
+                       'Left axillary node noted with the cortical thickness of 4.3 mm',
+                       'Left axillary node with a cortical thickness of 3.2 mm noted- equivocal for metastasis',
+                       'Few mildly enlarged reactive lymph nodes with fatty hila are seen in the left axilla',
+                       'An abnormal left axillary node seen with cortical thickening of 4.6 mm',
+                       'At the site of palpable abnormality in the right axilla an enlarged node measuring 19.9 x 31.5 mm is seen with loss of fattybhila; Multiple smaller abnormal nodes are also noted',
+                       'Multiple abnormal right axillary nodes seen with cortical thickening of 4.2 mm',
+                       'Few enlarged lymph node with preserved central fatty seen in right axilla',
+                       'Multiple abnormal right axillary nodes seen (5-6 in no); The largest node measures 14.0 x 9.9 mm and shows calcification within it',
+                       'A right axillary node with cortical thickening (4.4 mm) is noted. This is suspicious for metastsis?']
+    mammo_indication = ['Clinically big hard lump is felt',
+                        'Screening exam with no presenting symptoms',
+                        'Lump in left breast',
+                        'Lump in left breast since 2 years',
+                        'Lump in the right breast since 10 days ; Biopsy done s/o IDC',
+                        'Lump in Right breast',
+                        'Lump in the left breast FNAC positive for malignant cells',
+                        'Lump in left breast since 1 year',
+                        'K/C/O right breast cancer - post wide local excision',
+                        'Lump in left breast since 15-20 days',
+                        'Lump in left breast since 1 year; Now presently inceased in size',
+                        'Routine screening',
+                        'Bloody discharge from left nipple; biopsy done outside HPE DCIS solid type with foci of invasion',
+                        'Lump in right axilla; History of surgery for bengin right breast lesion',
+                        'Lump in the left breast since 8 - 10 days', 'Lump in right breast since 2 months',
+                        'Scrrening Mammography; History of right palpable painless lump since 8 years',
+                        'Lump in the right breast since 1 month; FNAC positive for malignancy',
+                        'OP/C/O right breast phylloides; Post menopausal status',
+                        'Post menopausal PV bleeding 1 month ago; Post menopausal status']
+    skin_involvement = ['Requires Follow-up',
+                        'The lesion appears adherent to the skin',
+                        'Data not in report',
+                        'The lesion extends to the nipple areolar complex and is associated with nipple retarction',
+                        'Left skin thikening noted; Right nipple and skin appear normal',
+                        'It is associated with nipple and skin retarction',
+                        'Skin appear normal', 'Nipple and sikn appear normal',
+                        'It is causing retraction of the nipple areolar complex',
+                        'The skin reveals no e/o thickening/ puckering',
+                        'Nipple and skin appears normal',
+                        'Left nipple and skin appears normal',
+                        'It is associated with nipple retraction',
+                        'Right peri areolar skin thickening is noted',
+                        'Nipples and skin appear normal']
+    impression = ['Requires Follow-up', "Right breast reveals a mass with f/s/o a gaint benign fibroadenoma of breast or a benign phyllodes tumour", 
+                  "An irregular dense lesion of size 34.6 x 26.8 mm with angular margins is noted in left breast at 4 o' clock position ; The lesion shows presence of pleomorphic calcification with linear branching distribution ; Above findings are highly suspicious of a malignant lesion-IDC with DCIS component", 'Irregular lesion in the anterior 3rd peri aerolar region of the left breast in the 8 o clock 1A position ; grouped pleomorphic calcification is seen in anterior to aspect of the lesion ; Another small irregular satellite nodule is seen in anterior to aspect of the lesion about cm from it ; Finding suggestive of multifocal infiltarting malignancy likely IDC intermediate grade', 'Spiculated dense lesion in the posterior 3rd of the left breast in the lower inner quardrant at 7 o clock position involving the overlying skin and probably infiltrating the pectoral muscle measure 21.9 x 16.7 mm ; Above is s/o an infiltrating malignancy likely low to intermediate grade infiltarting ductal carcinoma ', 'Spiculated dense lesion in the 7 o clock position of the right breast in the mid 3rd with few specks of calcification within it is due to the infiltrating malignancy likely low grade ; BIRADs 6 known malignancy', 'Irregular spiculated lesion in the 3.5 o clock position of the right breast in the mid 3rd about 4.8 cm from nipple is s/o an infiltrating malignancy likely infiltarting duct carcinoma- low to intermediate ; Fine pleomorphic calcification is noted at the peripheral of the lesion', 'Heterogenously hypoechoic lobulated lesion in the 3 o clock position of the left breast is s/o an infiltrating malignancy likely high grade ; A satellite lession is seen in the same readial plane medialy to this lesion about 7.3 mm from the index lesion ; BIRADs 6 catogory', 'Above findings are s/o an infiltrating malignancy-likely low to intermediate grade infiltrating ductal carcinoma; Further evaluation with breast ultrasound and image guided biopsy is recomended; AR BI-RADS CATEGORY V: Malignant', "Large spiculatedb lesion in the 2' o 'clock 2B position of left breast is due to the biopsy proven Invasive ductal carcinoma; A satellite with intralesional micorcalcification is seen at 3' o 'clock 1A position of left breast; Focal asymmetry noted in lower and outer quadrant of left breast as described above with ultrasound co-relate at 7' o 'clock 3B position will need further evaluation for possible multi centric foci; BIRADS category 6: known malignancy", 'Post operative changes in right breast in the form of scarring;  Post operative fluid collection in right breast with thin septa s/o serum; Residual lesion cannot be ruled out; Focal asymmetry is noted in lower quadrant of the right breast 4 cm from nipple; category 6: Known Malignancy', "Irregular spiculated lesion in the 7 ' o 'clock 1B position of the left breast is highly suspicious for an infiltrating malignancy likely low to intermediate grade Inflitrating Ductal carcinoma; Birads ctaegory IV C", 'Irregular hypoechoic lesion in the retro areolar region of the left breastis the FNAC proven malignancy- like intermediate grade Invasive Duct Carcinoma; Left Axillary Nodes are suspicious for metastsis; BIRADS Category 6: Known Malignancy', 'Small irregular lesion with spiculation and intra-lesion al micro calcification is suspicious for an infiltrating malignancy low to intermediate grade invasive ductal carcinoma; ACR BI-RADS CATEGORY IV C', "Spiculated lesion in the 2' o 'clock 1B position of the left breast with duct like extension toward the nipple;Above is s/o an infiltrating malignancy likely low grade Invasive Ductal Carcinoma with a non calcified DCIS component; ACR BIRADS CATEGORY V: KNOWN MALIGNANCY", 'Spiculated lesion in the left beast is s/o infiltrating malignancy - likely low grade Invasive duct carcinoma.', "An irregular hypoechoic leasion at 2' o 'clock 2B position of right breast - suspicious for malignancy, could be high grade; Possibility of fibroadenoma less likely; Small oval circumsribed lesions at 3 and 10' o 'clock positions of left breast - could be fibroadenomas; BIRADs category 4c", 'Spiculated lesion in the left breast is s/o infiltrating malignancy - likely low to intermediate grade Invasive Ductal carcinoma; Left axillary node noted with the cortical thickening? metastatic; BIRADS category IV C', "Large partially circumscribed complex cystic solid mass with spiculation in 10' o 'clock peri areolar region of the left breast is s/o an infiltarting malignancy, likey intermediated to high grade- INfiltrating ductal carcinoma; BIRADS category: V mailgnant", 'F/S/o focal metastsis with breast abscess in left beast, beneath the clinically palpable swelling; Lesion number 2 in left breast is? a small fibroednoma; The retroareolar lesion in left breast is likely to be ductal ectasia with ductitis; BIRADS category - 2/3 (probably bengin); Possibility of malignancy  is low however inflammatory ca needs to be ruled out at this age by FNAC']
+                
+
+class PatientInfo:
+    nut_supp = ['No nutritional supplements taken', 'Calcium', 'Vitamin-D']
