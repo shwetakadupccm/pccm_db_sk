@@ -98,6 +98,16 @@ class PatientInfo:
     cancer_detected_by = ['self', 'routine_checkup', 'physician', 'screening_camp', 'requires_follow_up',
                           'data_not_in_report']
 
+physical_activity_dict = {'walking': ['walk', 'walking', 'walking_for_exercise', 'lawn_walking'],
+                             'cycling': ['cycle', 'cycling', 'bicycling'],
+                             'running': ['run', 'running'],
+                             'swimming': ['swimm', 'swimming', 'lap swimming'],
+                             'jogging': ['jogging', 'jogg'],
+                             'gym': ['gym', 'gymming'],
+                             'dancing': ['dance', 'dancing', 'kathak', 'zumba'],
+                             'exercis': ['exercise', 'yoga', 'lower intensity exercise', 'aerobic exercise', 'other aerobic exercise']
+                             'player': ['badminton', 'tennis', 'throw ball']
+                             }
 
 class RadiotherapyOptions:
     rt_location = ['ipsilateral_breast', 'contralateral_breast', 'chest_wall', 'supraclavicular_fossa', 'axilla',
