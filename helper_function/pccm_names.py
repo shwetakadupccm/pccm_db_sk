@@ -208,9 +208,9 @@ def name_clinical(module_name):
                     'lump_palpable_ce', 'lump_location_ce', 'lump_size_ce',
                     'lump_number_ce' 'lump_consistency_ce', 'lump_fixity_ce',
                     'mastitis_ce', 'mastitis_type_ce', 'tenderness_ce',
-                    'nipple_retraction_ce','nipple_discharge_ce',
+                    'nipple_retraction_ce', 'nipple_discharge_ce',
                     'nipple_discharge_type_ce', 'skin_changes_ce',
-                    'skin_change_type_ce','palpable_axillary_nodes_ce',
+                    'skin_change_type_ce', 'palpable_axillary_nodes_ce',
                     'palpable_axillary_nodes_number_ce',
                     'palpable_axillary_nodes_size_ce',
                     'palpable_axillary_nodes_fixity_ce',
@@ -252,7 +252,7 @@ def names_radio(module_name):
                     'mammography_calcificationtype',
                     'mammography_calcification_comments',
                     'mammography_skin_involvement',
-                    'mammography_node_description','mammography_node_size',
+                    'mammography_node_description', 'mammography_node_size',
                     'mammography_node_size_unit', 'mammography_birad',
                     'mammography_impression', 'tomography_y_n',
                     'update_by', 'last_update']
@@ -262,7 +262,7 @@ def names_radio(module_name):
                     'automated_breast_volume_scanner_abvs',
                     'accession_abvs', 'lesion_abvs', 'lesion_location_abvs',
                     'size_abvs', 'distance_abvs', 'distance_pectmajor_abvs',
-                    'diagnosis_abvs','update_by', 'last_update']
+                    'diagnosis_abvs', 'update_by', 'last_update']
     elif module_name == 'ultrasound':
         col_list = ['file_number', 'reason_report', 'report_date', 'usg_status',
                     'usg_date', 'usg_breast', 'usg_mass', 'usg_mass_number',

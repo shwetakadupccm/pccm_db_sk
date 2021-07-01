@@ -105,9 +105,10 @@ physical_activity_dict = {'walking': ['walk', 'walking', 'walking_for_exercise',
                              'jogging': ['jogging', 'jogg'],
                              'gym': ['gym', 'gymming'],
                              'dancing': ['dance', 'dancing', 'kathak', 'zumba'],
-                             'exercis': ['exercise', 'yoga', 'lower intensity exercise', 'aerobic exercise', 'other aerobic exercise']
-                             'player': ['badminton', 'tennis', 'throw ball']
-                             }
+                             'exercise': ['exercise', 'yoga', 'lower intensity exercise', 'aerobic exercise',
+                                         'other aerobic exercise'],
+                             'player': ['badminton', 'tennis', 'throw ball']}
+
 
 class RadiotherapyOptions:
     rt_location = ['ipsilateral_breast', 'contralateral_breast', 'chest_wall', 'supraclavicular_fossa', 'axilla',
